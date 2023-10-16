@@ -1,0 +1,24 @@
+.widget{
+    display:flex;
+    gap:30px;
+    justify-content: space-between;
+    padding:7.5px;
+    background-color:#148A08;
+    color:white;
+    border:1px solid transparent;
+    border-radius:13px;
+    width:120px;
+}
+
+.widget{
+    font-family: 'DM Sans';
+}
+
+.texting{
+    background-color:#148A08;
+}
+
+.remove-tab{
+    background-color: #148A08;
+    cursor: pointer;
+}

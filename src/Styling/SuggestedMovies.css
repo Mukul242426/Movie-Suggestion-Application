@@ -1,0 +1,36 @@
+.movies-list{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    width:100%;
+    height:30%;
+}
+
+.variety{
+    color: #878787;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 139.688%;
+    letter-spacing: 0.6px;
+    width:100%;
+    /* height:10%; */
+}
+
+.ImageBox{
+    display: flex;
+    gap:30px;
+    width:100%;
+}
+
+.picture{
+   width:25%;
+}
+
+.suggested-movie{
+    width:100%;
+    border:1px solid transparent;
+    border-radius:16px;
+
+}

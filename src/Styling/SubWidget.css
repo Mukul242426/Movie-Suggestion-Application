@@ -1,0 +1,20 @@
+.Sub-Widget{
+    border:1px solid transparent;
+    width:90px;
+    background-color: #9F94FF;
+    border-radius: 13px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left:10px;
+}
+
+
+.Sub-Widget{
+    color: #FFF;
+font-family: 'Roboto';
+font-size: 15.15px;
+font-style: normal;
+font-weight: 400;
+line-height: 105.688%; /* 29.751px */
+letter-spacing: 0.563px;
+}

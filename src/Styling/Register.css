@@ -1,0 +1,164 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.error-msg{
+    color:red;
+}
+
+.register-page{
+    display:flex;
+    width:100%;
+    border:1px solid black;
+    background-color: black;
+}
+
+.left-area{
+    width:45%;
+}
+
+.image-text{
+    position: absolute;
+    bottom: 13%;
+    left:5%;
+}
+
+.image-text-2{
+    position:absolute;
+    bottom:5%;
+    left:5%; 
+}
+
+.image-text,.image-text-2{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 141.688%; 
+    letter-spacing: 1.1px;
+}
+
+.right-area{
+    width:55%;
+    background-color: black;
+}
+
+.pic{
+    width:100%;
+}
+
+.register-box{
+    display: flex;
+    flex-direction: column;
+    margin-top:6%;
+    gap:50px;
+}
+
+.upper-body{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    margin-left:32.5%;
+}
+
+.caption{
+    margin-left:9%;
+    color: #72DB73;
+    font-family: 'Single Day';
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.688%; 
+}
+
+.form-row-2{
+    color: #FFF;
+    font-family: 'DM Sans';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.688%; 
+}
+
+.lower-body{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin-left:22%;
+}
+
+.form-row-3,.form-row-4,.form-row-5,.form-row-6{
+    width:400px;
+}
+
+#name-input,#username-input,#email-input,#number-input{
+    border: 2px solid black;
+    width:100%;
+    padding:10px;
+    border-radius: 7px;
+    background: #292929; 
+    color:white;
+}
+
+.form-row-7{
+    width:360px;
+}
+
+#tnc{
+    margin-right:20px;
+}
+
+.conditions{
+    color: #7C7C7C;
+font-family: DM Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 139.688%; /* 27.984px */
+letter-spacing: 0.401px;
+}
+
+.checkbox{
+    margin-left:5px;
+}
+
+.form-row-8{
+    width:400px;
+}
+
+.signup{
+    width:100%;
+    padding:15px;
+    border-radius:100px;
+    background-color: #72DB73;
+}
+
+.form-row-9{
+    width:350px;
+    color:#7C7C7C;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 141.7%;
+    letter-spacing: 0.36px;
+}
+
+.form-row-10{
+    width:360px;
+    color:#7C7C7C;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 141.7%;
+    letter-spacing: 0.36px;
+}
+
+.some-text{
+    color: #72DB73;
+
+}

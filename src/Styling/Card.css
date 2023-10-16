@@ -1,0 +1,42 @@
+.box{
+    display:flex;
+    flex-direction: column;
+    width: 155px;
+    height:151px;
+    margin-top:0px;
+    margin-bottom:0px;
+    gap:20px;
+    cursor: pointer;
+}
+
+.box{
+    /* border:1px solid black; */
+    border-radius: 13px;
+    padding:10px;
+}
+
+.genre-type{
+    margin-top:3px;
+    margin-left:7px;
+    color:white;
+}
+
+.genre-type{
+    color: #FFF;
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.movie-type{
+    width:120px;
+    height:80px;
+    border-radius: 9px;
+    margin-left:5px;
+}
+
+.pic{
+    border:1px solid transparent;
+}

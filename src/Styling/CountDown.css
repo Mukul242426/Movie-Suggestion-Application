@@ -1,0 +1,12 @@
+.countdown-start{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 105.688%; /* 42.275px */
+    letter-spacing: 1.6px;
+}

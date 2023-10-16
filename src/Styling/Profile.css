@@ -1,0 +1,426 @@
+*{
+    border:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.profile-page{
+    width:100%;
+    height:100vh;
+    background-color: black;
+    padding:40px;
+    padding-top:20px;
+    /* padding-bottom: 20px; */
+    overflow:auto;
+}
+
+.profile-page{
+    display: flex;
+    gap:20px;
+}
+
+.part-left{
+    width:100%;
+    height:90vh;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.upper-area{
+    width:100%;
+    /* height:60vh; */
+    display:flex;
+    gap:35px;
+}
+
+.section-one{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width:55%;
+    height: 100%;
+}
+
+.section-two{
+    width:50%;
+    height:100%;
+    border: 1px solid transparent;
+    border-radius:13px;
+    background-color: #F1C75B;
+    padding:20px;
+    overflow: auto;
+    color:black;
+}
+
+.text-title{
+    width:100%;
+    font-family: 'Roboto';
+    font-size:25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.text-area{
+    background-color: transparent;
+    width:100%;
+    height:100%;
+    outline:none;
+    resize: none;
+    font-family: 'Roboto';
+    font-size:22px;
+}
+
+.user-info{
+    width:100%;
+    height:250px;
+    border:1px solid transparent;
+    border-radius:13px;
+    background-color: #5746EA;
+}
+
+.user-info{
+    display:flex;
+    gap:25px;
+    padding:10px 10px 10px 30px;
+    overflow: auto;
+}
+
+.PicArea{
+    width:20%;
+    height:100%;
+    position: sticky;
+    top: 0;
+}
+
+.UserPic{
+    width:100%;
+    height:100%;
+}
+
+.UserDetails{
+    width:70%;
+    height:100%;
+    padding:20px;
+}
+
+.UserDetails{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.Complete-Info{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.fullname,.UserName,.UserEmail{
+    color: #FFF;
+font-family: 'Roboto';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 103.188%; /* 21.669px */
+letter-spacing: 0.42px;
+}
+
+.UserName{
+    font-size:25px;
+}
+
+.categories{
+    width:100%;
+    /* height:30%; */
+    padding-bottom: 20px;
+}
+
+.categories{
+    margin-top:15px;
+    display:flex;
+    gap:10px;
+    flex-wrap: wrap;
+    /* overflow: auto; */
+}
+
+.weather-details{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:180px;
+    border:1px solid transparent;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.location-info{
+    display: flex;
+    justify-content: space-evenly;
+    height:30%;
+    background-color: #FF4ADE;
+    padding:10px;
+}
+
+.date,.time{
+    color: #FFF;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 141.688%; /* 78.013px */
+letter-spacing: 1.101px;
+}
+
+
+.climate-info{
+    background-color: #101744;
+    height:70%;
+}
+
+
+.climate-info{
+    display: flex;
+    gap:35px;
+    padding-left:20px;
+    padding-right:20px;
+    /* justify-content: space-evenly; */
+}
+
+
+.climate-type{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.climate-pitcha{
+    width:70px;
+    height:60px;
+}
+
+.text-climate{
+    display: flex;
+    justify-content: center;
+}
+
+.text-climate{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 15.866px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.688%; /* 24.956px */
+    padding:10px;
+    height:70%;
+}
+
+.vertical-line{
+    border-left: 1px solid white;
+    height:40px;
+    margin-top:30px;
+}
+
+.temperature{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:8px;
+   color: #FFF;
+   /* width:30%;
+   height:100%; */
+   /* padding:20px; */
+}
+
+.degree{
+    width:100%;
+    height:50%;
+    color: #FFF;
+font-family: Roboto;
+font-size: 34px;
+font-style: normal;
+font-weight: 400;
+line-height: 139.688%; /* 109.27px */
+padding: 15px;
+}
+
+.pressure{
+    display: flex;
+    gap:10px;
+    width:100%;
+    height:70%;
+    margin-left:5px;
+}
+
+.meter{
+    width:15px;
+    height:25px;
+}
+
+.pressure-content{
+    width:50px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.688%; /* 109.27px */
+}
+
+.wind-humidity{
+    display: flex;
+    flex-direction: column;
+    /* gap:2px; */
+    /* justify-content: center; */
+}
+
+.air-info,.humid-info{
+    display:flex;
+    /* justify-content: center; */
+    gap:15px;
+}
+
+.air-photo{
+    margin-top:7px;
+}
+
+.air-info{
+    width:100%;
+    height:50%;
+    padding:10px;
+    padding-top:10px;
+    
+}
+
+.air-content,.humid-content{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.688%; /* 109.27px */
+}
+
+.humid-info{
+    width:100%;
+    height:50%;
+    padding:10px;
+    padding-top: 5px;
+    gap:25px;
+}
+
+.humid-photo{
+    margin-left: 5px;
+}
+
+
+/* .part-right{
+    display:flex;
+    flex-direction: column;
+    width: 35%;
+    border:1px solid white;
+    border-radius: 13px;
+     gap:15px; 
+    overflow: hidden;
+} */
+
+.upwards{
+    width:100%;
+    height:50%;
+    position: relative;
+}
+
+.news-title{
+    background: rgba(0, 0, 0, 0.74);
+    padding:10px;
+    color:white;
+    position: absolute;
+    bottom: 0;
+}
+
+.news-heading{
+    padding-bottom: 10px;
+}
+
+.downwards{
+    width:100%;
+    height:50%;
+    background-color: white;
+    padding:15px;
+    overflow:auto;
+}
+
+.lower-area{
+    width:100%;
+    height:100%;
+    padding:20px;
+}
+
+.lower-area{
+    display: flex;
+    gap:40px;
+    background-color: #1E2343;
+}
+
+.lowerArea-part1{
+    width:45%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    margin-top:30px;
+}
+
+.lowerArea-part2{
+    width:55%;
+    height:100%;
+    overflow: auto;
+}
+
+.part-right{
+    display:flex;
+    flex-direction: column;
+    width: 35%;
+    height:90vh;
+    gap:40px;
+}
+
+.news-part{
+    border:1px solid white;
+    border-radius:13px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:85vh;
+}
+
+.browse-btn{
+    width:100%;
+    height:5vh;
+    display: flex;
+    justify-content:center;
+}
+
+.graze-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.graze-btn{
+    color: #FFF;
+text-align: center;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 92.2%; /* 21.691px */
+letter-spacing: 0.471px;
+border:1px solid transparent;
+background-color: #148A08;
+border-radius: 18px;
+width:50%;
+padding:20px;
+height:80%;
+cursor: pointer;
+}
