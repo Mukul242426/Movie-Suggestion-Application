@@ -23,9 +23,7 @@ function Card({item,setErrorMsg,selectedGenre,setSelectedGenre}) {
   return (
     <div className='box' 
     style={{ backgroundColor:item.Color,
-             border:selectedGenre.includes(item.name)?'8px solid green':'transparent',
-             width:selectedGenre.includes(item.name)?'168px':'155px',
-             height:selectedGenre.includes(item.name)?'161px':'151px'}} onClick={handleClick}>
+             outline:selectedGenre.includes(item.name)?'8px solid green':'transparent'}} onClick={handleClick}>
         <div className='genre-type'
          style={{backgroundColor:item.Color}}>
          {item.name}

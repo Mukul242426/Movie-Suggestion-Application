@@ -32,7 +32,7 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap:20px;
+    gap:30px;
     margin-left:80px;
     height:100px;
 }
