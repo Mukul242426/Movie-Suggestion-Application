@@ -379,7 +379,7 @@ padding: 15px;
 .part-right{
     display:flex;
     flex-direction: column;
-    width: 35%;
+    width: 25%;
     height:90vh;
     gap:40px;
 }
