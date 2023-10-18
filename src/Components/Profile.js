@@ -38,7 +38,7 @@ const handleChange=(e)=>{
 }
 
 const getWeatherInfo=()=>{
-  fetch("http://api.weatherapi.com/v1/current.json?key=54c1526b0211468e812153812230610&q=Ghaziabad")
+  fetch("https://api.weatherapi.com/v1/current.json?key=54c1526b0211468e812153812230610&q=Ghaziabad")
   .then((res)=>res.json())
   .then((data)=>{
     setWeatherInfo(data);
